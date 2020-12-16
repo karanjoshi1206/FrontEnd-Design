@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.heading {
+  margin: 40px 0;
+  text-align: center;
+}
+.main {
+  display: grid;
+  grid-template-areas:
+    "a1 a1 a3 a4"
+    "a2 a2 a3 a5";
+  grid-gap: 30px;
+  margin: 40px 70px;
+  height: 600px;
+}
+.a {
+  min-height: 280px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s all ease;
+  transform-origin: bottom;
+}
+h3 {
+  background: white;
+}
+/* images for web development projects */
+.web .a1 {
+  grid-area: a1;
+  background: url("./webimage/proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.web .a2 {
+  grid-area: a2;
+  background: url("./webimage/web1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.web .a3 {
+  grid-area: a3;
+  background: url("./webimage/web2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.web .a4 {
+  grid-area: a4;
+  background: url("./webimage/web3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.web .a5 {
+  grid-area: a5;
+  background: url("./webimage/web4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* images for app development projects */
+.app .a1 {
+  grid-area: a1;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.app .a2 {
+  grid-area: a2;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.app .a3 {
+  grid-area: a3;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.app .a4 {
+  grid-area: a4;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.app .a5 {
+  grid-area: a5;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* images for machine learning projects */
+.ml .a1 {
+  grid-area: a1;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.ml .a2 {
+  grid-area: a2;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ml .a3 {
+  grid-area: a3;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.ml .a4 {
+  grid-area: a4;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.ml .a5 {
+  grid-area: a5;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* images for robotics projects */
+.robo .a1 {
+  grid-area: a1;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.robo .a2 {
+  grid-area: a2;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.robo .a3 {
+  grid-area: a3;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.robo .a4 {
+  grid-area: a4;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.robo .a5 {
+  grid-area: a5;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+/* images for Artificial Intelligence projects */
+.ai .a1 {
+  grid-area: a1;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.ai .a2 {
+  grid-area: a2;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ai .a3 {
+  grid-area: a3;
+  background: url("./proj3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.ai .a4 {
+  grid-area: a4;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.ai .a5 {
+  grid-area: a5;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.a:hover .projinfo {
+  bottom: 0px;
+  color: white;
+  transition: 0.5s all ease;
+  transform-origin: bottom;
+  width: 100%;
+  background: black;
+}
+
+.projinfo {
+  position: absolute;
+  bottom: -100px;
+  padding: 0px 10px;
+}
+.projinfo h1 {
+  font-size: 30px;
+}
+.projinfo h2 {
+  font-size: 20px;
+}
+.projinfo span {
+  color: crimson;
+}
+a i {
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+  font-size: 20px;
+}
+.buttons {
+  margin: 60px 0 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.buttons a {
+  text-decoration: none;
+  background-color: rgb(73, 188, 255);
+  border: 2px solid rgb(73, 188, 255);
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.5s all ease;
+  margin: 15px;
+  z-index: 9999;
+}
+.buttons a:hover {
+  color: rgb(73, 188, 255);
+  background-color: white;
+}
+#app,
+#ml,
+#ai,
+#robo {
+  display: none;
+  transition: 1s all ease;
+}
+.toggle {
+  display: none;
+}
+.toggle i.active:before {
+  content: "\f00d";
+}
+.type {
+  margin: 20px 0;
+  text-align: center;
+}
+.nav.active {
+  left: 0;
+}
+@media screen and (max-width: 1080px) {
+  .main {
+    grid-template-areas: "a1 a2" "a3 a4" "a5 a5";
+    margin: 30px;
+  }
+}
+@media (max-width: 760px) {
+  .nav ul {
+    transition: 1s all ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav {
+    border-radius: 2rem;
+    background-color: black;
+    padding: 4rem 0;
+    position: fixed;
+    left: -100%;
+    top: 14rem;
+    z-index: 99999999;
+    transition: 0.5s all ease;
+    /* display: none; */
+  }
+  .toggle {
+    display: block;
+    position: fixed;
+    right: 20px;
+  }
+
+  .buttons a {
+    border-radius: 20px;
+    padding: 3px 10px;
+    transition: 0.5s all ease;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    margin-top: 50px;
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5";
+  }
+}
