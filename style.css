@@ -13,8 +13,9 @@
 .main {
   display: grid;
   grid-template-areas:
-    "a1 a1 a3 a4"
-    "a2 a2 a3 a5";
+    "a1 a1 a3 a4 "
+    "a2 a2 a3 a5"
+    "a6 a7 a7 a7";
   grid-gap: 30px;
   margin: 40px 70px;
   height: 600px;
@@ -29,23 +30,24 @@
 h3 {
   background: white;
 }
+
 /* images for web development projects */
 .web .a1 {
   grid-area: a1;
-  background: url("./webimage/proj1.jpeg");
+  background: url("./webimage/web1.PNG");
   background-position: center;
   background-size: cover;
 }
 .web .a2 {
   grid-area: a2;
-  background: url("./webimage/web1.jpeg");
-  background-position: center;
+  background: url("./webimage/web2.jpg");
+  background-position: top;
   background-size: cover;
 }
 
 .web .a3 {
   grid-area: a3;
-  background: url("./webimage/web2.jpg");
+  background: url("./webimage/web3.jpeg");
   background-position: center;
   background-size: cover;
 }
@@ -65,31 +67,37 @@ h3 {
 /* images for app development projects */
 .app .a1 {
   grid-area: a1;
-  background: url("./proj1.jpeg");
+  background: url("/appimage/app1.jpg");
   background-position: center;
   background-size: cover;
 }
 .app .a2 {
   grid-area: a2;
-  background: url("./proj3.jpeg");
+  background: url("/appimage/app2.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .app .a3 {
   grid-area: a3;
-  background: url("./proj3.jpeg");
+  background: url("/appimage/app3.png");
   background-position: center;
   background-size: cover;
 }
 .app .a4 {
   grid-area: a4;
-  background: url("./proj1.jpeg");
+  background: url("/appimage/app4.webp");
   background-position: center;
   background-size: cover;
 }
 .app .a5 {
   grid-area: a5;
+  background: url("./proj1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.app .a6 {
+  grid-area: a6;
   background: url("./proj1.jpeg");
   background-position: center;
   background-size: cover;
@@ -163,26 +171,26 @@ h3 {
 /* images for Artificial Intelligence projects */
 .ai .a1 {
   grid-area: a1;
-  background: url("./proj1.jpeg");
+  background: url("/aiimage/ai1.jpg");
   background-position: center;
   background-size: cover;
 }
 .ai .a2 {
   grid-area: a2;
-  background: url("./proj3.jpeg");
+  background: url("/aiimage/ai2.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .ai .a3 {
   grid-area: a3;
-  background: url("./proj3.jpeg");
+  background: url("/aiimage/ai3.jpeg");
   background-position: center;
   background-size: cover;
 }
 .ai .a4 {
   grid-area: a4;
-  background: url("./proj1.jpeg");
+  background: url("/aiimage/ai4.jpg");
   background-position: center;
   background-size: cover;
 }

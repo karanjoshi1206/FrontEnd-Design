@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/webprojects/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <a href="#">Prev</a>
+            <a href="#">Next</a>
+        </header>
+        <div class="content">
+            <div class="top">
+                <h1 class="title">Weather App</h1>
+                <h2 class="Author">Karan Joshi<span class="date">Nov 5, 2020</span></h1>
+                    <div class="icons">
+                        <!-- <a href="#"> <i class="fab fa-facebook-f"></i></a> -->
+                        <a href="https://www.linkedin.com/in/karan-joshi-5397591a7/
+                        "><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/karanjoshi1206"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://github.com/karanjoshi1206/mausam
+                        "><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+            </div>
+            <div class="description">
+                <p>WeatherKnow is application through which you can check the weather of any city with just one click.
+                    It take the name of the place as the user input and then append the input in the API
+                    (openweathermap.org) which returns the data in the JSON format which is then converted into array
+                    using JavaScript. Then it update the front end of the website and display the weather condition
+                <div class="projimg"><img src="/webimage/web1.PNG" alt=""></div>
+
+                <br> <br>
+                Technologies used
+                <ul>
+                    <li> 1.HTML</li>
+                    <li> 2.CSS</li>
+                    <li> 3.Bootstrap</li>
+                    <li> 4.JavaScript</li>
+                    <li> 5.Node.js</li>
+                    <li> 6.Express</li>
+                </ul>
+
+                </p>
+            </div>
+            <i onclick="update()" id="bulb" class=" bulb far fa-lightbulb"></i><span id="like" class="like">30</span>
+
+        </div>
+    </div>
+    <script src="/webprojects/app.js"></script>
+</body>
+
+</html>
