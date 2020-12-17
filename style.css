@@ -276,7 +276,7 @@ a i {
 }
 @media screen and (max-width: 1080px) {
   .main {
-    grid-template-areas: "a1 a2" "a3 a4" "a5 a5";
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7";
     margin: 30px;
   }
 }
@@ -314,6 +314,6 @@ a i {
 @media screen and (max-width: 500px) {
   .main {
     margin-top: 50px;
-    grid-template-areas: "a1" "a2" "a3" "a4" "a5";
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7";
   }
 }
