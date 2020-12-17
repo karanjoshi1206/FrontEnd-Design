@@ -10,6 +10,10 @@
   margin: 40px 0;
   text-align: center;
 }
+.about {
+  margin: 10px 40px;
+  text-align: center;
+}
 .main {
   display: grid;
   grid-template-areas:
@@ -281,6 +285,13 @@ a i {
   }
 }
 @media (max-width: 760px) {
+  .heading {
+    margin: 40px 0;
+  }
+  .about {
+    margin: 10px;
+    text-align: center;
+  }
   .nav ul {
     transition: 1s all ease;
     display: flex;
