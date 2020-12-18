@@ -175,13 +175,13 @@ h3 {
 /* images for Artificial Intelligence projects */
 .ai .a1 {
   grid-area: a1;
-  background: url("/aiimage/ai1.jpg");
+  background: url("/aiimage/ai1.png");
   background-position: center;
   background-size: cover;
 }
 .ai .a2 {
   grid-area: a2;
-  background: url("/aiimage/ai2.jpg");
+  background: url("/aiimage/ai2.png");
   background-position: center;
   background-size: cover;
 }
